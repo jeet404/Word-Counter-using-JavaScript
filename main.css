@@ -1,0 +1,32 @@
+.main {
+  height: 60vh;
+  box-shadow: 0px 0px 4px 4px black;
+  transition: 0.3s;
+}
+
+.main .lbl {
+  font-size: 1.8em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.main textarea {
+  font-size: 20px;
+  resize: none;
+}
+
+.main:hover {
+  border-radius: 8px;
+  box-shadow: 3px 4px 6px 4px black;
+  transition: 0.2s;
+}
+
+.main .result {
+  font-size: 2em;
+  text-align: center;
+}
+
+footer a:hover {
+  color: rebeccapurple !important;
+}
